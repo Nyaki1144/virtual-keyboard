@@ -1,0 +1,67 @@
+.key {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+
+  background: rgb(60,204,230);
+  background: linear-gradient(310deg, rgba(60,204,230,1) 0%, rgba(28,90,101,1) 100%);
+
+  line-height: 62px;
+  color: #f8f8f8;
+  font-size: 32px;
+  text-align: center;
+
+  border: solid 5px #57a0ad;
+  -webkit-box-shadow: 10px 10px 18px -9px rgba(0, 0, 0, 0.93);
+  -moz-box-shadow: 10px 10px 1857a0adpx -9px rgba(0, 0, 0, 0.93);
+  box-shadow: 10px 10px 18px -9px rgba(0, 0, 0, 0.93);
+
+  cursor: pointer;
+  transition: hover linear .5s;
+}
+
+.key:hover{
+  background: darken(#57a0ad, 20%);
+  background: linear-gradient(90deg, darken(#57a0ad, 0%) 0%, rgba(28,90,101,1) 100%);
+}
+
+.push-active{
+  background: darken(#57a0ad, 20%);
+  background: linear-gradient(155deg, darken(#57a0ad, 0%) 0%, rgba(28,90,101,1) 100%);
+}
+
+.push-active:hover{
+  background: darken(#57a0ad, 20%);
+  background: linear-gradient(155deg, darken(#57a0ad, 0%) 0%, rgba(28,90,101,1) 100%);
+}
+
+.key-radus {
+  border-radius: 30px;
+}
+
+.key-tub {
+  width: 85px;
+}
+
+
+.key--middle-xl {
+  width: 180px;
+}
+
+.key--middle-l {
+  width: 160px;
+}
+
+.key--middle-s {
+  width: 135px;
+}
+
+.key-spc {
+  width: 500px;
+}
+
+.key-backspace{
+  width: 160px;
+}
+
+
